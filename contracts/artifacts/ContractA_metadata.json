@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractBAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "contractB",
+				"outputs": [
+					{
+						"internalType": "contract ContractB",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getValueFromContractB",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setValueInContractB",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractA.sol": "ContractA"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractA.sol": {
+			"keccak256": "0xbeee8de9c505dea402f49bb15d15c12bbe97157b3acae2057346933c0351b45f",
+			"urls": [
+				"bzz-raw://04bdde397b62b05641d8f2bac4e2bf3066a6dfcdcd114c1f13cca4965d080132",
+				"dweb:/ipfs/QmckJ3yinSEvKumKc8bFLwUiV2AD4JSc1dZmqdCkmwon3S"
+			]
+		},
+		"contracts/ContractB.sol": {
+			"keccak256": "0xf6f66405dd0924634cc3db105b7ccaf021dea015018de8b58cc2a94233fb0e64",
+			"urls": [
+				"bzz-raw://ee1ffdb1622c6e2ebdcc0360e7da37627fdac931f8b6ef272f4c82060fe1c904",
+				"dweb:/ipfs/QmTQboLZewyRY88Z9Nnc5hZw8MUXyWEQ4jxEaYJSwhqMvY"
+			]
+		}
+	},
+	"version": 1
+}
