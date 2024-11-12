@@ -1,9 +1,20 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
+library SafeMath {
+    function add(uint a, uint b) public pure returns (uint) {
+        uint c = a + b;
+        require(c >= a, "SafeMath: addition overflow");
+        return c;
+    }
+}
+
 contract FucntionDemo {
 
+    
+
     function square(uint x) public pure returns (uint) {
+        SafeMath.add(x, 5);
         return x * x;
     } 
 
