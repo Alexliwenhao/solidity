@@ -473,11 +473,11 @@
 	},
 	"sources": {
 		"contracts/Dog/SLAVE.sol": {
-			"keccak256": "0x14e98cd5b8bf743ee0709ce96d32702b91e38101c5ba3b88e83304e335c5df85",
+			"keccak256": "0xd98d7c4f71db734ec302e60bbdc99a386d2508b270effcd4ba71f04297256593",
 			"license": "UNLICENSE",
 			"urls": [
-				"bzz-raw://07576639545047f7e8b22cd5c8fbb2bd6e85aa2ac4fc762820332508d9b076ef",
-				"dweb:/ipfs/QmQMgJkCQbkNrdPxK9Uuv9AaBHGuXcHvPmgWFyyqdt3t9r"
+				"bzz-raw://758086c3280f654ec6259674a1b2f426ff0d9a082d91adc3cdd1ee3575619113",
+				"dweb:/ipfs/QmdjCTYVucAGnrbEm8UwyvvjhhYC7GvDNWzRMCVqf7P7t1"
 			]
 		}
 	},

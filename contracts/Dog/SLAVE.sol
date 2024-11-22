@@ -108,7 +108,7 @@ interface IUniswapV2Router02 {
     ) external payable returns (uint amountToken, uint amountETH, uint liquidity);
 }
 
-contract SLAVE   is Context, IERC20, Ownable {
+contract SLAVE  is Context, IERC20, Ownable {
     using SafeMath for uint256;
     mapping (address => uint256) private _balances;
     mapping (address => mapping (address => uint256)) private _allowances;
