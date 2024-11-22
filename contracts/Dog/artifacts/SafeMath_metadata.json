@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Dog/SLAVE.sol": "SafeMath"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Dog/SLAVE.sol": {
+			"keccak256": "0x14e98cd5b8bf743ee0709ce96d32702b91e38101c5ba3b88e83304e335c5df85",
+			"license": "UNLICENSE",
+			"urls": [
+				"bzz-raw://07576639545047f7e8b22cd5c8fbb2bd6e85aa2ac4fc762820332508d9b076ef",
+				"dweb:/ipfs/QmQMgJkCQbkNrdPxK9Uuv9AaBHGuXcHvPmgWFyyqdt3t9r"
+			]
+		}
+	},
+	"version": 1
+}
