@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/oneblock/Alex.sol": "Name"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/oneblock/Alex.sol": {
+			"keccak256": "0x39c03b9a2cccc48e5651ce31d428edbf38d63b788c16cf73b27d492ae049d825",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b672226b44f75a853f720d50af083c7e65cec30b30103b0891940f49c2b5cab3",
+				"dweb:/ipfs/QmSXiZEqDfL6wyXZm39dCxG7UtiYj6jkCs5aGmDvNGeCmU"
+			]
+		}
+	},
+	"version": 1
+}
